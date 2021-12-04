@@ -16,7 +16,9 @@
   <div class="booki_page">
   <header class="titre_principal">
     <!-- <div class="titre_principal"> -->
-      <div id="logo_booki"><img src="booki.png" alt="logo_booki" /> </div>
+      <div id="logo_booki">
+        <figure><img src="booki.png" alt="logo_booki" />
+         </figure></div>
 
       <nav class="menu_nav">
             <div class="menu_hebergements"> <a href="#hebergement_populaire">Hébergements</a></div>
@@ -31,15 +33,15 @@
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                <p>En plain centre ville ou en plein nature</p>
                </header>
-  <div class="div-form">
+  <div class="div_formulaire">
   <form method="post" action="recherchre.php" >
 
     <div class="formulaire">
       <div class="class_icon_localisation"><a href="#"><i class="fa fa-map-marker-alt" ></i></a></div>
    <div class="class_search">              
-  <input type="search" name="search" id="id_search" value="Marseille, France"></div>
+  <label for="id_search"></label><input type="search" name="search" id="id_search" value="Marseille, France"></div>
   <!--Bouton rechercher pour ordinateur et tablet-->
-  <div class="class_submit"><input type="submit" id="id_submit" onclick="alert('Hellow World!')" value="Rechercher">
+  <div class="class_submit"><label for="id_submit"></label><input type="submit" id="id_submit" onclick="alert('Hellow World!')" value="Rechercher">
   </div> 
 <!--Loupe pour smartphone-->
     <button class="bouton_search"><i class="fa fa-search" style="color:white"></i>
@@ -48,9 +50,8 @@
 </form>
 </div>
       <div class="filtres">
-        <div class="titre_filtres">
-          <p><em>Filtres</em></p>
-        </div>
+        <div class="titre_filtres"><p><em>Filtres</em></p></div>
+        
         <a class="hover_filtres" href="#">
           <div class="economique">
             <div class="icone_economique"><i class="fa fa-money-bill-wave" style="color:#0065FC"> </i></div>
@@ -79,7 +80,7 @@
 
       <div class="information">
 
-        <div class="icone_info"><a class="hover_filtres" href="#"><i class="fa fa-info" class="fa-info-color"></i></a> </div>
+        <div class="icone_info"><a class="hover_filtres" href="#"><i class="fa fa-info" class="fa-info-color" style="color:#0065FC"></i></a> </div>
         <div class="desc_info">
           <p><em> Plus de 500 logements sont disponibles dans centre ville</em></p>
         </div>
@@ -221,7 +222,7 @@
           <div>
             <h1>Les plus populaires</h1>
           </div>
-          <div><i class="fa fa-chart-line"></i></div>
+          <div><a href="#"><i class="fa fa-chart-line"></i></a></div>
         </header>
 
 <div class="card_les_plus_populaires">

@@ -941,7 +941,7 @@ align-items: center;
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
-width:50%;
+width:100%;
 }
 .formulaire{
 	display: flex;
@@ -1231,6 +1231,7 @@ font-size:4px;
 align-items: center;
 width: 320px;
 height: 60px;
+padding:10px;
 }
 	
 

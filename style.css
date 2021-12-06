@@ -247,7 +247,7 @@ opacity: 0.6;
 /* ecran taille ordinateur min 992px*/
 				/*Desktop*/
 
-@media screen and (max-width:1600px) and (min-width:992px)
+@media screen and (min-width:992px)
 {
 	.booki_page{
 		display: flex;
@@ -947,13 +947,13 @@ width:100%;
 	display: flex;
 	flex-wrap: wrap;
 	margin:10px 0px 10px 0px;
-	width: 350px;
+	width: 100%;
 	height: auto;
 }
 .div_formulaire{
 	display: flex;
 	flex-wrap: wrap;
-	width: 360px;
+	width: 100%;
 	 justify-content: center; 
 }
 .class_search input{
@@ -1001,7 +1001,7 @@ width:100%;
 .titre_filtres{
 display:flex;
 flex-wrap: wrap;
-width: 350px;
+width: 100%;
 height: auto;
 justify-content: left;
 }
@@ -1021,8 +1021,9 @@ justify-content: left;
 .romantique{
 	display:flex;
 	flex-wrap: wrap;
-	width: 360px;
+ margin:0px 130px 0px 0px; 
 }
+
 #hebergement_populaire{
 display:flex;
 flex-wrap: wrap;

@@ -338,9 +338,9 @@ width: 200px;
 height: 200px;
 margin: 10px 0px 10px 0px;
 border-radius: 10px;
--moz-box-shadow:2px 2px 0px #F2F2F2; 
--webkit-box-shadow: 2px 2px 0px #F2F2F2;
-box-shadow: 2px 2px 0px #F2F2F2;
+-moz-box-shadow:2px 2px 10px #F2F2F2; 
+-webkit-box-shadow: 2px 2px 10px #F2F2F2;
+box-shadow: 2px 2px 10px #F2F2F2;
 }
 
 
@@ -405,9 +405,9 @@ margin: 2px 0Px 2px 0px;
 .article_pop{
 display: flex;
 flex-wrap: wrap;
--moz-box-shadow:2px 2px 0px #F2F2F2; 
--webkit-box-shadow: 2px 2px 0px #F2F2F2;
-box-shadow: 2px 2px 0px #F2F2F2;
+-moz-box-shadow:2px 2px 10px #F2F2F2; 
+-webkit-box-shadow: 2px 2px 10px #F2F2F2;
+box-shadow: 2px 2px 10px #F2F2F2;
 border-radius: 10px;
 background-color: #FFFFFF;
 font-size: 10px;
@@ -488,9 +488,9 @@ justify-content:space-between;
 .card_taille_petite{
 display: flex;
 flex-wrap:wrap ;
--moz-box-shadow:2px 2px 0px #F2F2F2; 
--webkit-box-shadow: 2px 2px 0px #F2F2F2;
-box-shadow: 2px 2px 0px #F2F2F2;
+-moz-box-shadow:2px 2px 10px #F2F2F2; 
+-webkit-box-shadow: 2px 2px 10px #F2F2F2;
+box-shadow: 2px 2px 10px #F2F2F2;
 border-radius: 10px;
 margin: 4px;
 }
@@ -513,9 +513,9 @@ object-fit: cover;
 .card_taille_grande{
 display: flex;
 flex-wrap: wrap;
--moz-box-shadow:2px 2px 0px #F2F2F2; 
--webkit-box-shadow: 2px 2px 0px #F2F2F2;
-box-shadow: 2px 2px 0px #F2F2F2;
+-moz-box-shadow:2px 2px 10px #F2F2F2; 
+-webkit-box-shadow: 2px 2px 10px #F2F2F2;
+box-shadow: 2px 2px 10px #F2F2F2;
 border-radius: 10px;
 }
  .photo_activite_grande {
@@ -673,9 +673,9 @@ justify-content: space-around;
 display: flex;
 flex-wrap: wrap;
 border-radius: 10px;
--moz-box-shadow:2px 4px 0px #F2F2F2; 
--webkit-box-shadow: 2px 4px 0px #F2F2F2;
-box-shadow:2px 4px 0px #F2F2F2;
+-moz-box-shadow:2px 2px 10px #F2F2F2; 
+-webkit-box-shadow: 2px 2px 10px #F2F2F2;
+box-shadow:2px 2px 10px #F2F2F2;
 background-color: white;
 width: 200px;
 height: 200px;
@@ -747,7 +747,9 @@ height: 200px;
 .article_pop{
 display: flex;
 flex-wrap: wrap;
-box-shadow: 0px 0px 2px #F2F2F2;
+-moz-box-shadow:2px 2px 10px #F2F2F2; 
+-webkit-box-shadow: 2px 2px 10px #F2F2F2;
+box-shadow: 2px 2px 10px #F2F2F2;
 border-radius: 10px;
 background-color: #FFFFFF;
 margin: 4px 0px 0px 0px;
@@ -818,9 +820,9 @@ height: auto;
 display:flex; 
 flex-wrap: wrap;
 padding: 0px 0px 6px 0px;
--moz-box-shadow:0px 0px 20px #aaa; 
--webkit-box-shadow: 0px 0px 10px #aaa;
-box-shadow: 0px 0px 4px #aaa;
+-moz-box-shadow:2px 2px 10px #F2F2F2; 
+-webkit-box-shadow: 2px 2px 10px #F2F2F2;
+box-shadow: 2px 2px 10px #F2F2F2;
 border-radius: 10px;
 Margin: 4px;
 }
@@ -1066,9 +1068,9 @@ flex-wrap: wrap;
 
 .card{
 display:inline-block;
--moz-box-shadow:2px 2px 0px #F2F2F2; 
--webkit-box-shadow: 2px 2px 0pc #F2F2F2;
-box-shadow: 2px 2px 0px #f2f2f2;
+-moz-box-shadow:2px 2px 10px #F2F2F2; 
+-webkit-box-shadow: 2px 2px 10px #F2F2F2;
+box-shadow: 2px 2px 10px #f2f2f2;
 border-radius: 10px;
 width: 340px;
 height: 240px;
@@ -1124,7 +1126,9 @@ margin: 2px 0Px 2px 0px;
 .article_pop{
 display: flex;
 flex-wrap: wrap;
-box-shadow: 2px 2px 0px #F2F2F2;
+-moz-box-shadow:2px 2px 10px #F2F2F2; 
+-webkit-box-shadow: 2px 2px 10px #F2F2F2;
+box-shadow: 2px 2px 10px #F2F2F2;
 border-radius: 10px;
 background-color: #FFFFFF;
 font-size: 10px;
@@ -1137,9 +1141,7 @@ margin: 10px 0px 10px 0px;
 	flex-wrap: wrap;
 	width: 120px;
 	height: 140px;
-/*padding: 0px 2px 0px 0px;
-*/
-
+/*padding: 0px 2px 0px 0px;*/
 }
 .description_pop{
 display: flex;
@@ -1201,9 +1203,9 @@ height: auto;
 .card_1{
 	display: flex;
 	flex-wrap:wrap ;
-	-moz-box-shadow:2px 2px 0px #F2F2F2; 
-	-webkit-box-shadow: 2px 2px 0px #F2F2F2;
-	box-shadow: 2px 2px 0px #F2F2F2;
+	-moz-box-shadow:2px 2px 10px #F2F2F2; 
+	-webkit-box-shadow: 2px 2px 10px #F2F2F2;
+	box-shadow: 2px 2px 10px #F2F2F2;
 	border-radius: 10px;
 width: 340px;
 height: 240px;
@@ -1263,11 +1265,9 @@ height: auto;
 	}
 	footer ul{ 
 	text-align: left;
-/*	margin:2px 0px 12px 0px;*/
 	}
 	h3{
 	font-weight: bold;
-	/*margin:0px 0px 8px 0px;*/
 	}
 	.a_propos{
 		margin: 2px 0px 12px 0px;

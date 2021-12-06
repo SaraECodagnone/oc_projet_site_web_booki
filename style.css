@@ -1039,6 +1039,8 @@ align-items: center;
 .titres_hebergement{
 display: flex;
 flex-wrap: wrap;
+width: 340px;
+height: auto;
 }
 .hebergement{
 display:flex;
@@ -1161,6 +1163,14 @@ border-bottom-left-radius: 10px;
 padding: 3px;
 object-fit: cover;
 }
+/*Aficher plus*/
+
+.aficher_plus{
+	display: flex;
+	flex-wrap: wrap;
+	width: 340px;
+	height: auto;
+	}
 /*hover activites= card_1 */
 .card_taille_petite:hover{
 opacity:0.6;
